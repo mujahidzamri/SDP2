@@ -1,0 +1,19 @@
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore all the .idea folder contents except for the important ones
+.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/inspectionProfiles
+!.idea/*.iml
+
+# Ignore user-specific and environment-specific files
+.idea/workspace.xml
+
+# Ignore other unwanted files (if any)
+*.log
+*.tmp
